@@ -104,7 +104,7 @@ let renderizar_project = (pro) => {
       window.location.href = p.enlaceEjecutable;
     });
     let imgLink = document.createElement("img");
-    imgLink.setAttribute("src", "../logos/link.png");
+    imgLink.setAttribute("src", "./logos/link.png");
     divLink.appendChild(imgLink);
     let divHub = document.createElement("div");
     divHub.setAttribute("id", "chub");
@@ -112,7 +112,7 @@ let renderizar_project = (pro) => {
       window.location.href = p.enlacehub;
     });
     let imgHub = document.createElement("img");
-    imgHub.setAttribute("src", "../logos/githubp.png");
+    imgHub.setAttribute("src", "./logos/githubp.png");
 
     divHub.appendChild(imgHub);
     divIcono.append(divLink, divHub);
@@ -131,7 +131,7 @@ let renderizar_project = (pro) => {
 let projects = [];
 projects.push({
   id: 1,
-  img: "../imagenes/CarritoCara.PNG",
+  img: "./imagenes/CarritoCara.PNG",
   title: "Carrito de Compras",
   fecha: "7/02/2023",
   descr: "Una aplicacion para hacer tus comprar con javascript",
@@ -140,7 +140,7 @@ projects.push({
 });
 projects.push({
   id: 2,
-  img: "../imagenes/NewsBitcoin.PNG",
+  img: "./imagenes/NewsBitcoin.PNG",
   title: "Noticias  Bitcoin",
   fecha: "12/06/2022",
   descr: "Noticias bitcoin,hecho con Next.js y SSR",
